@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trigonometri: Konsep dan Dasar-Dasarnya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f2f6fb; --surface:#ffffff; --ink:#13203a; --muted:#53617c; --line:#c9d5e6;
+  --sin:#1f5fe0; --cos:#e0562b; --tan:#15936a; --grid:#dbe5f2;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0e1628; --surface:#16213a; --ink:#e8eefb; --muted:#a2b0cc; --line:#2c3b5c; --sin:#6b9bff; --cos:#ff8a5f; --tan:#43d1a1; --grid:#1c2a47;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Literata',Georgia,serif;font-size:1.05rem;line-height:1.75;
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px}
+h1,h2,h3,nav,button,label,th{font-family:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sin);outline-offset:2px}
+nav{position:sticky;top:0;z-index:5;display:flex;gap:1.25rem;flex-wrap:wrap;padding:.7rem 1.25rem;background:var(--surface);border-bottom:1px solid var(--line);font-weight:500;font-size:.95rem}
+nav a{text-decoration:none;color:var(--muted)} nav a:hover{color:var(--ink)}
+nav b{margin-right:auto;font-weight:800;color:var(--ink)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.hero{display
